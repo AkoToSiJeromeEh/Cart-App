@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  margin: auto;
+  max-width: 750px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+.border-cont {
+  background-color: rgb(207, 241, 255);
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+  min-height: 70vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.function-contents-section {
+  margin: auto;
+  margin-top: 1rem;
+  min-height: 120vh;
+  max-width: 350px;
+}
+
+.title-Meowsies {
+  font-size: 55px;
+  font-family: "Londrina Solid", cursive;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  color: rgb(255, 182, 182);
+}
+
+.fa-cat {
+  position: absolute;
+  padding: 22px 10px 22px 10px;
+  background-color: #d87093;
+}
+
+.field-div {
+  position: relative;
+}
+
+.input-fields {
+  padding: 9px 55px 9px 55px;
+  outline: none;
+  border: 2px solid palevioletred;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+::placeholder {
+  font-family: "Poppins", sans-serif;
+  font: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.btn-add {
+  padding: 7px 55px 7px 55px;
+  background-color: rgba(255, 149, 125, 0.8);
+  font-family: "Londrina Solid", cursive;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  border: none;
+  color: rgb(253, 243, 243);
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+}
+.btn-add:hover{
+  background-color: rgba(250, 104, 72, 0.8);
+  color: blue;
+}
+.btn-reset {
+  padding: 7px 55px 7px 55px;
+  background-color: rgba(92, 92, 255, 0.8);
+  border: none;
+  font-family: "Londrina Solid", cursive;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  color: rgb(255, 243, 243);
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+}
+.btn-reset:hover{
+  color: orangered;
+  background-color: rgba(59, 59, 255, 0.8);
+}
+
+.btn-add:hover,
+.btn-reset:hover {
+  color: rgb(0, 0, 0);
+}
+
+.footer {
+  min-height: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.social-round {
+  background-color: rgb(200, 231, 241);
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.fa-brands {
+  margin-left: 10px;
+  background-color: rgba(249, 177, 233, 0.806);
+  padding: 20px 10px 20px 10px;
+  border-radius: 25px;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.fa-brands:hover {
+  background-color: lightblue;
+  color: white;
+}
+.title-footer {
+  font-size: 17px;
+}
+.title-list {
+  color: white;
+  font-family: "Lilita One", cursive;
+  font-size: 23px;
+}
+
+.list-container {
+  background-color: rgb(255, 182, 182);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+ul{
+   margin-top: 10px;
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap; 
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  padding: 0;
+  
+
+}
+ul li{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  list-style:decimal inside;
+  padding: 10px;
+  flex-grow: 1;
+  background-color: #abfffc;
+  font-family: 'Coda', cursive;
+  color: black;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0 ,0.2); 
+}
+ul li:hover{
+
+  background-color: rgb(155, 146, 252);
+  color: rgb(255, 255, 255);
+}
+.btnDeleteItem{
+ margin-left: 1rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+.fa-xmark:hover,.btnDeleteItem:hover{
+  background-color: transparent;
+  color: red;
+}
+.fa-xmark{
+  color: rgb(255, 172, 172);
+  padding: 5px;
+}
+.p-no-items{
+  display: flex;
+  justify-content: center;
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
